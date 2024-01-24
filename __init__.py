@@ -8,6 +8,12 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return render_template('hello.html')
-                                                                                                                                       
+
+@app.route('/fr')
+def hello_world():
+    return render_template('bonjour tout le monde')
+
+
+
 if __name__ == "__main__":
   app.run(debug=True)
