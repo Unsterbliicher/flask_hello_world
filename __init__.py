@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/fr')
 def hello_world():
-    return render_template('bonjour tout le monde')
+    return render_template('bonjour.html')
 
 
 
