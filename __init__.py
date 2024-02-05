@@ -33,7 +33,7 @@ def mongraphique():
    return render_template('graphique.html')
 
 @app.route("/histoiregramme/")
-def mongraphique():
+def monhistoiregramme():
    return render_template('histoiregramme.html')
 
 
