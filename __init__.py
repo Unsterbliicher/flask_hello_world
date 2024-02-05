@@ -30,11 +30,11 @@ def meteo():
 
 @app.route("/rapport/")
 def mongraphique():
-   return render_template("graphique.html")
+   return render_template('graphique.html')
 
 @app.route("/histoiregramme/")
 def mongraphique():
-   return render_template("histoiregramme.html")
+   return render_template('histoiregramme.html')
 
 
 
